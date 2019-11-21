@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    width: 100%;
+}
+.header {
+    background-color: #042f4b;
+    box-shadow: 0 2px 4px 1px rgba(000, 000, 000, 0.5);
+    width: 100%;
+}
+
+.nav-icon-container {
+    display: inline-block;
+    width: 49%;
+    font-size: 40px;
+    color: #fff6da;
+    box-sizing: border-box;
+    line-height: 70px;
+    padding: 7px 0px 0 20px;
+}
+
+.nav-list-container {
+    width: 49%;
+    display: inline-block;
+    text-align: right;    
+}
+
+.nav-list {
+    list-style: none;
+    text-align: right;
+    font-size: 20px;
+    color: #fff6da;
+    line-height: 70px;
+    font-family: 'Cuprum', sans-serif;
+   
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.main-section-container {
+    margin: 15px 0 60px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.main-title-container {
+    background-color: #d8d4f2;
+    background-image: url("./img/IMG_9561a.jpg");
+    width: 100%;
+    background-size: cover;
+    display: inline-block;
+    margin: 20px auto;
+    }
+
+.main-title {
+    background-color: #30323D;
+    line-height: 100px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 200px 0;
+    font-style: normal;
+    color: #e5fcc2;
+    letter-spacing: 15px;
+}
+
+.presentation-container {
+    background-color: #e5fcc2;
+    width: 1200px;
+    display: inline-block;
+}
+
+.image-container {
+    display: inline-block;
+    margin: 50px 0 50px 100px;
+}
+
+.personal-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.personal-description-container {
+    display: inline-block;
+    width: 70%;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    vertical-align: top;
+    margin-top: 80px;
+    
+}
+
+.mini-personal {
+    display: inline-block;
+    margin: 4px 10px;
+    font-weight: bold;
+    
+}
+
+.first-line {
+    margin-left: 50px;
+}
+
+.extended-personal-description {
+    margin: 0 50px 50px 50px;
+    font-size: 17px;
+    width: 700px;
+}
+
+.footer-container {
+    background-color: #042f4b;
+    color: #fff6da;
+    font-family: 'Cuprum', sans-serif;
+    width: 100%;
+}
+
+.footer-list {
+    text-align: center;
+}
+
+.footer-one {
+    list-style: none;
+
+}
+
+.footer-link-one {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 50px;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+/*.footer-two {
+    
+}*/
+
+.second-line {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 50px;
+    
+}
+
+/*.footer-copyright {
+    
+    
+}
+
+.footer-vertical-bar {
+   
+}*/
+
+.footer-email {
+    cursor: pointer;
+}
+
+/*.footer-phone {
+}
+.icon-wsp {
+
+}*/
+
