@@ -10,6 +10,7 @@ body {
     background-color: #042f4b;
     box-shadow: 0 2px 4px 1px rgba(000, 000, 000, 0.5);
     width: 100%;
+    margin: 0 0 15px 0 ;
 }
 
 .nav-icon-container {
@@ -45,7 +46,6 @@ body {
 }
 
 .main-section-container {
-    margin: 15px 0 60px 0;
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -59,6 +59,7 @@ body {
     background-size: cover;
     display: inline-block;
     margin: 20px auto;
+    margin-bottom: 50px; 
     }
 
 .main-title {
@@ -99,7 +100,7 @@ body {
     font-size: 20px;
     text-align: justify;
     vertical-align: top;
-    margin-top: 80px;
+    margin-top: 60px;
     
 }
 
@@ -118,6 +119,34 @@ body {
     margin: 0 50px 50px 50px;
     font-size: 17px;
     width: 700px;
+}
+
+.skills-section {
+    margin: 50px; 
+    background-color: #45ada8;
+    width: 1200px;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+
+.skill-img {
+    height: 150px;
+        
+
+}
+.skill-container {
+    display: inline-block;
+    margin: 20px;
+    width: 179px; 
+    
+    
+}
+
+.p-list {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #547980;
+    font-size: 20px;
+        
 }
 
 .footer-container {
@@ -175,3 +204,10 @@ body {
 
 }*/
 
+
+h2 { 
+    font-family: 'Lobster', cursive; 
+    font-size: 40px; 
+    padding: 20px;
+
+}
