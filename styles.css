@@ -63,6 +63,7 @@ body {
     display: inline-block;
     margin: 20px auto;
     margin-bottom: 50px; 
+
     }
 
 .main-title {
@@ -84,11 +85,11 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
+
 }
 
 .image-container {
-    
-    margin: 50px 0 50px 100px;
+   margin: 50px 0 50px 100px;
 }
 
 .personal-photo {
@@ -127,21 +128,27 @@ body {
     width: 700px;
 }
 
+.skills-section {
+    margin: 50px; 
+    background-color: #45ada8;
+    width: 1200px;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .all-skills-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
+}
 
-}
-.skills-section {
-    margin: 50px; 
-    background-color: #45ada8;
-    width: 1200px;
-    box-sizing: border-box;
-    margin: 50px auto;
-}
 
 .skill-img {
     height: 150px;
@@ -224,3 +231,12 @@ h2 {
     padding: 20px;
 
 }
+
+/*a {
+    cursor: pointer;
+    color: #fff6da;
+}
+
+a:visited {
+    color: #fff6da;
+}*/
