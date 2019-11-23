@@ -10,22 +10,24 @@ body {
     background-color: #042f4b;
     box-shadow: 0 2px 4px 1px rgba(000, 000, 000, 0.5);
     width: 100%;
-    margin: 0 0 15px 0 ;
+    display: flex;
 }
 
+
 .nav-icon-container {
-    display: inline-block;
     width: 49%;
     font-size: 40px;
     color: #fff6da;
     box-sizing: border-box;
     line-height: 70px;
-    padding: 7px 0px 0 20px;
+    display:flex;
+    margin-left: 20px;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .nav-list-container {
     width: 49%;
-    display: inline-block;
     text-align: right;    
 }
 
@@ -36,17 +38,18 @@ body {
     color: #fff6da;
     line-height: 70px;
     font-family: 'Cuprum', sans-serif;
+    display:flex;
+    justify-content: flex-end;
+    align-items: space-between;
    
 }
 
 .nav-link {
-    display: inline-block;
     padding: 0 20px;
     cursor: pointer;
 }
 
 .main-section-container {
-    display: inline-block;
     width: 100%;
     text-align: center;
     
@@ -77,11 +80,14 @@ body {
 .presentation-container {
     background-color: #e5fcc2;
     width: 1200px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .image-container {
-    display: inline-block;
+    
     margin: 50px 0 50px 100px;
 }
 
@@ -121,6 +127,14 @@ body {
     width: 700px;
 }
 
+.all-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
 .skills-section {
     margin: 50px; 
     background-color: #45ada8;
@@ -135,7 +149,6 @@ body {
 
 }
 .skill-container {
-    display: inline-block;
     margin: 20px;
     width: 179px; 
     
