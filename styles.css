@@ -232,11 +232,12 @@ h2 {
 
 }
 
-/*a {
+a {
     cursor: pointer;
     color: #fff6da;
+    text-decoration: none;
 }
 
 a:visited {
     color: #fff6da;
-}*/
+}
