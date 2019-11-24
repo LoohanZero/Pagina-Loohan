@@ -52,6 +52,8 @@ body {
 .main-section-container {
     width: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: columns;
     
 }
 
@@ -60,7 +62,6 @@ body {
     background-image: url("./img/IMG_9561a.jpg");
     width: 100%;
     background-size: cover;
-    display: inline-block;
     margin: 20px auto;
     margin-bottom: 50px; 
 
