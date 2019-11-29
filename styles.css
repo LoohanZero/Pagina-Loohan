@@ -28,12 +28,10 @@ body {
 
 .nav-list-container {
     width: 49%;
-    text-align: right;    
 }
 
 .nav-list {
     list-style: none;
-    text-align: right;
     font-size: 20px;
     color: #fff6da;
     line-height: 70px;
@@ -48,6 +46,9 @@ body {
     padding: 0 20px;
     cursor: pointer;
 }
+/*---------------------------------------------------------------------------------------------------
+                                            MAIN                                                        
+------------------------------------------------------------------------------------------------------*/
 
 .main-section-container {
     width: 100%;
@@ -73,19 +74,27 @@ body {
     font-size: 50px;
     text-align: center;
     margin: 200px 0;
-    font-style: normal;
     color: #e5fcc2;
     letter-spacing: 15px;
 }
 
-.presentation-container {
-    background-color: #e5fcc2;
+/*---------------------------------------------------------------------------------------------------
+                                       ABOUT ME SECTION                                                        
+------------------------------------------------------------------------------------------------------*/
+.section {
     width: 1200px;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
+    box-sizing: border-box;
+    
+}
+
+.presentation-container {
+    background-color: #e5fcc2;
+    height: 70vh;
 
 }
 
@@ -122,18 +131,16 @@ body {
     margin-top: 20px;
 }
 
+/*---------------------------------------------------------------------------------------------------
+                                            SKILLS SECTION                                                        
+------------------------------------------------------------------------------------------------------*/
 .skills-section {
-    margin: 50px; 
     background-color: #45ada8;
-    width: 1200px;
     height: 100vh;
-    box-sizing: border-box;
     margin: 50px auto;
-    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
-}
+    }
 
 .all-skills-container {
     display: flex;
@@ -161,6 +168,76 @@ body {
         
 }
 
+/*---------------------------------------------------------------------------------------------------
+                                        CONTACT SECTION                                                        
+------------------------------------------------------------------------------------------------------*/
+
+.form-section {
+    background-color: #226b80;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto 30px;
+
+   }
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+    background-color: #c5f0a4;
+    width: 800px;
+    box-shadow: 3px 3px 15px 5px rgba(000, 000, 000, 0.3);
+    border-radius: 5px;
+   }
+.contact-form {
+    margin: auto;
+}
+
+.flex-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.form-first {
+    margin: 10px 0px;
+}
+.form-label {
+    padding: 7px 10px 7px 0;
+    font-weight: bold;
+}
+.name-input, .email-input, .options, .textarea, .form-button {
+    width: 450px;
+    line-height: 20px;
+    border-radius: 5px;
+    padding: 7px;
+    border: 1px solid #547980;
+}
+.options {
+    width: 465px;
+    cursor: pointer;
+    
+}
+.motive-form {
+    font-weight: normal;
+    padding: 5px;
+}
+.radio-form {
+    margin: 10px 0 5px 0;
+}
+
+.form-button {
+    margin: 20px auto;
+    cursor: pointer;
+    
+}
+
+/*---------------------------------------------------------------------------------------------------
+                                            FOOTER                                                        
+------------------------------------------------------------------------------------------------------*/
 .footer-container {
     background-color: #042f4b;
     color: #fff6da;

@@ -43,13 +43,19 @@ font-family: 'Tajawal', sans-serif;
         </div>
     </nav>
 
-
+    <!-------------------------------------------------------------------------------------------------------
+                                                  HEADER    
+    --------------------------------------------------------------------------------------------------------->
     <main class="main-section-container">
         <header class="main-title-container">
             <h1 class="main-title">LOOHAN</h1>
         </header>
+
+        <!-------------------------------------------------------------------------------------------------------
+                                            ABOUT ME SECTION
+        --------------------------------------------------------------------------------------------------------->
         <a name="about-me"></a>
-        <section class="presentation-container">
+        <div class="presentation-container section">
             <div class="image-container">
                 <img src="./img/Loohan.jpg" alt="Luján Sanchez" class="personal-photo">
             </div>
@@ -73,10 +79,19 @@ font-family: 'Tajawal', sans-serif;
                         gathijos lo pueden corroborar. </p>
                 </div>
             </div>
-        </section>
+        </div>
+
+
+        <!-------------------------------------------------------------------------------------------------------
+                                                       SKILLS SECTION  
+        --------------------------------------------------------------------------------------------------------->
+
+
         <a name="my-skills"></a>
-        <section class="skills-section">
-            <h2>Mis skills</h2>
+        <section class="skills-section section">
+            <header class="skills-header">
+                <h2>Mis skills</h2>
+            </header>
             <div class="all-skills-container">
                 <div class="skill-container">
                     <img src="./img/Logos Tecnologías/bootstrap.png" alt="Bootstrap" class="skill-img">
@@ -116,21 +131,83 @@ font-family: 'Tajawal', sans-serif;
                     <p class="p-list">First Certificate</p>
                 </div>
             </div>
+        </section>
 
 
+        <!-------------------------------------------------------------------------------------------------------
+                                                 CONTACT SECTION
+        --------------------------------------------------------------------------------------------------------->
+
+
+        <a name="contact"></a>
+        <section class="form-section section">
+            <header class="form-header">
+                <h2>Formulario de Contacto</h2>
+            </header>
+            <div class="form-container">
+                <form action="" class="contact-form">
+                    <div class="form-first flex-form">
+
+                        <label class="form-label" for="complete-name">Nombre Completo:</label>
+                        <input id="complete-name" type="text" name="complete-name" class="name-input"
+                            placeholder="Tu Nombre">
+
+                        <label class="form-label" for="email">E-mail:</label>
+                        <input id="email" type="email" name="email" placeholder="name@whatever.com" class="email-input">
+
+                        <label for="know-me" class="form-label">¿Cómo me conociste?</label>
+                        <select id="know-me" name="knows-me-from" class="options">
+                            <option class="option" value="linkedin">Linkedin</option>
+                            <option class="option" value="tw">Twitter</option>
+                            <option class="option" value="fb">Facebook</option>
+                            <option class="option" value="referred">Referidos</option>
+                            <option class="option" value="other">Otros</option>
+                        </select>
+                    </div>
+                    <div class="form-second">
+                        <label class="form-label" for="motives">Motivo</label>
+                        <div class="radio-form">
+                            <input id="motives" type="radio" name="motive">
+                            <label class="form-label motive-form">Oferta de empleo</label>
+                            <input type="radio" name="motive">
+                            <label class="form-label motive-form">Propuesta de trabajo</label>
+                            <input type="radio" name="motive">
+                            <label class="form-label motive-form">Consulta</label>
+                            <input type="radio" name="motive">
+                            <label class="form-label motive-form">Otro</label>
+                        </div>
+                    </div>
+                    <div class="form-third flex-form">
+                        <label class="form-label" for="message">¿Me querés dejar un mensaje?</label>
+                        <textarea id="message" name="message" cols="55" rows="7" class="textarea"
+                            placeholder="Obvio, si sos lo más."></textarea>
+
+                        <button class="form-button">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
+
+    <!-------------------------------------------------------------------------------------------------------
+                                                 FOOTER  
+    --------------------------------------------------------------------------------------------------------->
+
 
     <footer class="footer-container">
         <div class="footer-one">
             <ul class="footer-list footer-one">
-                <li class="footer-link-one"><a href="https://www.facebook.com/Loohan"><i class="fab fa-facebook-square"></i></a></li>
-                <li class="footer-link-one"><a href="http://www.instagram.com/loohan"><i class="fab fa-instagram"></i></a></li>
-                <li class="footer-link-one"><a href="https://www.linkedin.com/in/luj%C3%A1n-sanchez-6493ba70/"><i class="fab fa-linkedin"></i></a></li>
-                <li class="footer-link-one"><a href="http://www.github.com/LoohanZero"><i class="fab fa-github-square"></a></i></li>
+                <li class="footer-link-one"><a href="https://www.facebook.com/Loohan"><i
+                            class="fab fa-facebook-square"></i></a></li>
+                <li class="footer-link-one"><a href="http://www.instagram.com/loohan"><i
+                            class="fab fa-instagram"></i></a></li>
+                <li class="footer-link-one"><a href="https://www.linkedin.com/in/luj%C3%A1n-sanchez-6493ba70/"><i
+                            class="fab fa-linkedin"></i></a></li>
+                <li class="footer-link-one"><a href="http://www.github.com/LoohanZero"><i
+                            class="fab fa-github-square"></a></i></li>
             </ul>
         </div>
-        <a name="contact"></a>
+
         <div class="footer-list footer-two">
             <p class="footer-copyright second-line">© Loohan 2019 - Todos los derechos reservados</p>
             <p class="footer-vertical-bar second-line">|</p>
