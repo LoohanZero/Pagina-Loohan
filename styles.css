@@ -33,7 +33,6 @@ body {
 .nav-list {
     list-style: none;
     font-size: 20px;
-    color: #fff6da;
     line-height: 70px;
     font-family: 'Cuprum', sans-serif;
     display:flex;
@@ -45,6 +44,12 @@ body {
 .nav-link {
     padding: 0 20px;
     cursor: pointer;
+    color: #fff6da;
+}
+
+.nav-link:hover {
+    background-color: #226b80;
+
 }
 /*---------------------------------------------------------------------------------------------------
                                             MAIN                                                        
@@ -236,6 +241,18 @@ body {
     
 }
 
+button:hover {
+    background-color: darkgrey;
+}
+
+button:active {
+    background-color: grey;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border-color: 0.5px solid red;
+}
+
 /*---------------------------------------------------------------------------------------------------
                                             FOOTER                                                        
 ------------------------------------------------------------------------------------------------------*/
@@ -263,6 +280,9 @@ body {
     padding: 0 15px;
 }
 
+.footer-link-one:hover {
+    background-color: #226b80;
+}
 /*.footer-two {
     
 }*/
@@ -272,7 +292,6 @@ body {
     text-align: center;
     padding: 0 10px;
     line-height: 50px;
-    
 }
 
 /*.footer-copyright {
