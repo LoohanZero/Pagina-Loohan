@@ -51,6 +51,23 @@ body {
     background-color: #226b80;
 
 }
+
+@media (max-width:900px) {
+    .nav-list {
+    flex-direction: column;
+    align-items: flex-end;
+    }
+}
+
+@media (max-width:200px) {
+    .nav-icon-container {
+        display: none;
+    }
+    .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+        }
+}
 /*---------------------------------------------------------------------------------------------------
                                             MAIN                                                        
 ------------------------------------------------------------------------------------------------------*/
@@ -83,12 +100,16 @@ body {
     letter-spacing: 15px;
 }
 
+@media (max-width:300px) {
+    .main-title {
+     font-size: 20px;
+    }
+}
 /*---------------------------------------------------------------------------------------------------
                                        ABOUT ME SECTION                                                        
 ------------------------------------------------------------------------------------------------------*/
 .section {
-    width: 1200px;
-    height: 100vh;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,10 +123,11 @@ body {
     height: 70vh;
 
 }
-
+.image-container {
+    width:30%;
+}
 .personal-photo {
-    width: 300px;
-    height: 300px;
+    width: 100%;
     border-radius: 50%;
     
 }
@@ -118,6 +140,7 @@ body {
     border-left: 2px solid #eb8242;
     margin-left: 40px;
     padding: 30px 0 30px 30px;
+    width: 60%;
             
 }
 .mini-description {
@@ -132,8 +155,41 @@ body {
 
 .extended-personal-description {
     font-size: 17px;
-    width: 600px;
     margin-top: 20px;
+}
+
+@media (max-width:1250px) {
+    .presentation-container {
+        display: flex;
+        flex-direction: column;
+        background-color: #e5fcc2;
+        
+    }
+    .section {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .personal-description-container {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        width: 90%;
+        margin: 15px;
+        padding: 0;
+    
+    }
+    .mini-description {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .dash-line {
+        display: none;
+    }
+
 }
 
 /*---------------------------------------------------------------------------------------------------
@@ -141,7 +197,6 @@ body {
 ------------------------------------------------------------------------------------------------------*/
 .skills-section {
     background-color: #45ada8;
-    height: 100vh;
     margin: 50px auto;
     flex-direction: column;
     justify-content: space-evenly;
@@ -183,8 +238,9 @@ body {
     justify-content: space-evenly;
     align-items: center;
     margin: 0 auto 30px;
-    height: 110vh;
-
+    padding-bottom: 30px;
+    height: 100%;
+    
    }
 
 .form-container {
@@ -193,9 +249,10 @@ body {
     font-family: 'Tajawal', sans-serif;
     font-size: 15px;
     background-color: #c5f0a4;
-    width: 800px;
+    width: 70%;
     box-shadow: 3px 3px 15px 5px rgba(000, 000, 000, 0.3);
     border-radius: 5px;
+
    }
 .contact-form {
     margin: auto;
@@ -216,14 +273,14 @@ body {
     font-weight: bold;
 }
 .name-input, .email-input, .options, .textarea, .form-button {
-    width: 450px;
+    width: 97%;
     line-height: 20px;
     border-radius: 5px;
     padding: 7px;
     border: 1px solid #547980;
 }
 .options {
-    width: 465px;
+    width: 100%;
     cursor: pointer;
     
 }
@@ -251,6 +308,13 @@ button:active {
 
 input:invalid:not(:placeholder-shown) {
     border-color: 0.5px solid red;
+}
+
+@media (max-width:735px) {
+    .form-container {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 /*---------------------------------------------------------------------------------------------------
