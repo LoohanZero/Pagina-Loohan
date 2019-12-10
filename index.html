@@ -35,7 +35,13 @@ font-family: 'Tajawal', sans-serif;
 
         <div class="nav-list-container">
             <ul class="nav-list">
-                <li class="nav-link"><a href="#about-me">SOBRE MI</a></li>
+                <li class="nav-link"><a href="#about-me">SOBRE MI</a>
+                    <ul class="sub-nav-list">
+                        <li class="sub-nav-link">Nombre</li>
+                        <li class="sub-nav-link">Edad</li>
+                        <li class="sub-nav-link">Currículum</li>
+                    </ul>
+                </li>
                 <li class="nav-link"><a href="#my-skills">SKILLS</a></li>
                 <li class="nav-link"><a href="">PROYECTOS</a></li>
                 <li class="nav-link"><a href="#contact">CONTACTO</a></li>
@@ -149,12 +155,24 @@ font-family: 'Tajawal', sans-serif;
                     <div class="form-first flex-form">
 
                         <label class="form-label" for="complete-name">Nombre Completo:</label>
-                        <input id="complete-name" type="text" name="complete-name" class="name-input"
-                            placeholder="Ingrese su nombre">
 
+                        <div class="input-name">
+                            <input id="complete-name" type="text" name="complete-name" class="name-input"
+                                placeholder="Ingrese su nombre" required>
+                            <i class="fas fa-user name-icon"></i>
+                            <i class="fas fa-check" id="check-icon"></i>
+                        </div>
                         <label class="form-label" for="email">E-mail:</label>
-                        <input id="email" type="email" name="email" placeholder="usuario@whatever.com" class="email-input">
-
+                        <div class="input-email">
+                            <input id="email" type="email" name="email" placeholder="usuario@whatever.com"
+                                class="email-input" required>
+                            <i class="fas fa-envelope email-icon"></i>
+                            <i class="fas fa-check" id="check-icon"></i>
+                            <div class="invalid-message-box">
+                                <p class="msg-invalid">¡Tu mail no tiene la forma correcta! Debe ser:
+                                    usuario@whatever.com</p>
+                            </div>
+                        </div>
                         <label for="know-me" class="form-label">¿Cómo me conociste?</label>
                         <select id="know-me" name="knows-me-from" class="options">
                             <option class="option" value="linkedin">Linkedin</option>
