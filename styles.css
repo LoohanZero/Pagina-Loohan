@@ -356,9 +356,8 @@ body {
 }
 
 
-
-.name-input:valid ~ #check-icon,
-.email-input:valid ~ #check-icon {
+.name-input:valid + #check-icon,
+.email-input:valid + #check-icon {
     display: block;
 }
 
