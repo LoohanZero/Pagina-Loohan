@@ -55,25 +55,6 @@ body {
 .nav-link:hover .sub-nav-list {
     display: block;
 }
-.sub-nav-list {
-    list-style: none;
-    position: absolute;
-    background-color: #053e63; 
-    top: 56px;
-    right: -40px;
-    border-radius: 5px;
-    display: none;
-}
-
-.sub-nav-link:hover {
-    background-color: #085d94;
-    overflow: hidden;  
-}
-.sub-nav-link {
-    font-size: 17px;
-    line-height: 30px;
-    padding: 5px 20px;
-}
 
 @media (max-width:900px) {
     .nav-list {
